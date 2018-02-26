@@ -1,5 +1,14 @@
 # MailingList
 
+Fresh Phoenix project install
+* brew install elixir to install elixir
+* mix local.hex to get an up to date version of hex
+* mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez to install the phoenix archive
+* yarn add node/brew install node to get node, or we can make a project with —no-brunch flag to use a different build tool than brunch
+* brew rm postgresql --force remove old versions of postgresql
+* brew install postgresql install postgresql
+* brew services start postgresql start postgresql automatically (or follow the instructions provided by brew if they’re different)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
