@@ -8,7 +8,7 @@ Fresh Phoenix project install
 * ```brew rm postgresql --force``` remove old versions of postgresql
 * ```brew install postgresql``` install postgresql
 * ```brew services start postgresql``` start postgresql automatically (or follow the instructions provided by brew if they’re different)
-* ```psql postgres -c 'CREATE ROLE postgres LOGIN CREATEDB;'``` add the role needed for the mix ecto scripts to work
+* ```psql postgres -c 'CREATE ROLE postgres LOGIN CREATEDB;'``` add the role needed for the mix ecto scripts to work.  This isn't included in the normal brew install
 
 To start your Phoenix server:
 
